@@ -6,10 +6,11 @@ Notifun.configure do |config|
   # Configure the parent class responsible to send e-mails.
   config.parent_mailer = 'ApplicationMailer'
 
+
   # Configure how to send push notifications
-  # "CloudFive", "Empty"
-  # config.push_notifier = "CloudFive"
-  # config.push_config = { api_key: ENV["CLOUD_FIVE_API_KEY"] }
+  # "OneSignal", "Empty"
+  # config.push_notifier = "OneSignal"
+  # config.push_config = { api_key: ENV["ONE_SIGNAL_API_KEY"], app_id:ENV["ONE_SIGNAL_API_KEY"] , user_key:ENV["ONE_SIGNAL_USER_KEY"] }
 
   # Configure how to send text notifications
   # "Twilio", "Empty"

@@ -13,5 +13,5 @@ end
 require 'notifun/notifiers/parent_notifier'
 require 'notifun/notifiers/email_notifier'
 require 'notifun/notifiers/empty_notifier'
-require 'notifun/notifiers/cloud_five_notifier'
+require 'notifun/notifiers/one_signal_notifier'
 require 'notifun/notifiers/twilio_notifier'
