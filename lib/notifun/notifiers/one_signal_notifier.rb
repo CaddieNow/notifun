@@ -26,6 +26,7 @@ class Notifun::Notifier::OneSignalNotifier < Notifun::Notifier::ParentNotifier
         },
         ios_badgeType: 'Increase',
         ios_badgeCount: 1,
+        small_icon:'ic_notification',
         include_player_ids:[uuid]
     }
     begin
