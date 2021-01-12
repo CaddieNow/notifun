@@ -27,8 +27,8 @@ class Notifun::MessageMailer < Notifun.configuration.parent_mailer.constantize
     end
 
     mail(settings) do |format|
-      format.text { render plain: text, layout: _layout }
-      format.html { render html: html.html_safe, layout: _layout }
+      format.text { render plain: text}
+      format.html { render html: html.html_safe }
     end
   end
 end
